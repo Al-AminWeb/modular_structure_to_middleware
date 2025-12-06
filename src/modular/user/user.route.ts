@@ -6,6 +6,6 @@ const router = Router();
 
 
 //language=TEXT
-router.post('/', verify, userController.createUser);
+router.post('/', userController.createUser);
 
 export const userRoute = router;
